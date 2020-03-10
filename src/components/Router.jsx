@@ -8,7 +8,7 @@ class Router extends Component {
       <BrowserRouter>
         <div className="Router">
           <Switch>
-            <Route path="/home" component={App} />
+            <Route exact path="/" component={App} />
             <Route path="/:event_id" component={Events} />
           </Switch>
         </div>
